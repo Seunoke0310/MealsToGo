@@ -26,4 +26,3 @@ export const colors = {
     success: "#138000",
   },
 };
-

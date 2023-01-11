@@ -29,4 +29,3 @@ export const RestaurantsScreen = () => (
     </RestaurantListContainer>
   </SafeArea>
 );
-
