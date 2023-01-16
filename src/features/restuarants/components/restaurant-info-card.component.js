@@ -59,7 +59,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
     address = "100 some random street",
     isOpenNoW = true,
     rating = 4,
-    isClosedTemporarily,
+    isClosedTemporarily = true,
   } = restaurant;
 
   const ratingArray = Array.from(new Array(Math.floor(rating)));
