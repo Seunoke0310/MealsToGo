@@ -15,12 +15,12 @@ import { Navigation } from "./src/infrastructure/navigation";
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
 const firebaseConfig = {
-  apiKey: "<fill in your own>",
-  authDomain: "<fill in your own>",
-  projectId: "<fill in your own>",
-  storageBucket: "<fill in your own>",
-  messagingSenderId: "<fill in your own>",
-  appId: "<fill in your own>",
+  apiKey: "AIzaSyBNV_usCShWq7AAkvfNVzaI3uykeyNBCUI",
+  authDomain: "mealstogo-862e8.firebaseapp.com",
+  projectId: "mealstogo-862e8",
+  storageBucket: "mealstogo-862e8.appspot.com",
+  messagingSenderId: "685875695240",
+  appId: "1:685875695240:web:56baeb64e93e5cb6ad193d",
 };
 
 initializeApp(firebaseConfig);
