@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react";
+import { FlatList } from "react-native";
 import { TouchableOpacity } from "react-native";
 import styled from "styled-components/native";
 import { ActivityIndicator, MD2Colors } from "react-native-paper";
@@ -29,7 +30,7 @@ const LoadingContainer = styled.View`
 
 export const RestaurantsScreen = ({ navigation }) => {
   const { error: locationError } = useContext(LocationContext);
-  const { isLoading, restaurants, error } = useContext(RestaurantsContext);
+  const { isLoading, restaurants } = useContext(RestaurantsContext);
   const { favourites } = useContext(FavouritesContext);
   const [isToggled, setIsToggled] = useState(false);
   const hasError = !!error || !!locationError;

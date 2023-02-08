@@ -13,6 +13,8 @@ import { theme } from "./src/infrastructure/theme";
 import { Navigation } from "./src/infrastructure/navigation";
 
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
+import { LocationContext } from "./src/services/location/location.context";
+import { RestaurantsContextProvider } from "./src/services/restaurants/restaurants.context";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBNV_usCShWq7AAkvfNVzaI3uykeyNBCUI",
